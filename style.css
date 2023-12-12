@@ -1,0 +1,122 @@
+body{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+.genelContainer{
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    
+    width: 100%;
+    margin-left:10px;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+}
+.aContainer{
+    display: flex;
+    margin-right: 10px;
+    flex-wrap: wrap;
+}
+a{
+    margin-right: 15px;
+    color: gray;
+}
+header img{
+    height: 50px;
+}
+.Main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+#mission{
+
+    display: flex;
+    height: 700px;
+    width: 1200px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1n56svi*_ga*NjQ1OTAwMTQ2Mi4xNjk5NjA0NTM0*_ga_3LRZM6TM9L*MTcwMjM4ODA1NS41NS4wLjE3MDIzODgwNTUuNjAuMC4w");
+    align-items: center;
+}
+#mission .content{
+    background-color: black;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+}
+.flex-container{
+    width: 1000px;
+   
+}
+
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 15px;
+}
+.item{
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+margin-right: 15px;
+}
+.item img{
+    min-width: 300px;
+    min-height: 200px;
+    max-height: 200px;
+    max-width: 300px;
+    
+}
+.item p{
+    margin-top: 10px;
+}
+#locations{
+    height: 700px;
+    background-image:url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*i0o122*_ga*NjQ1OTAwMTQ2Mi4xNjk5NjA0NTM0*_ga_3LRZM6TM9L*MTcwMjM4ODA1NS41NS4wLjE3MDIzODgwNTUuNjAuMC4w");
+    width: 1200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 15px auto auto auto;
+    padding-top: 85px;
+}
+.location-container .h2picker{
+    font-size: 43px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+.locationItems{
+    justify-content: space-between;
+    display: flex;
+   margin: 15px auto auto auto;
+   max-width: 1050px;
+}
+.locationItem{
+    background-color: black;
+    height: 300px;
+    margin-bottom: auto;
+    opacity: 1;
+    flex-basis: 30%;
+    margin-right: 40px;
+    padding: 20px;
+}
+.upFooter{
+    width: 100%;
+    height: 200px;
+}
+.footer{
+    position: relative;
+    display: flex;
+    width: 100%;
+    bottom: 0;
+    margin-left: 20px;
+   
+
+}
